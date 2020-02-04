@@ -1,0 +1,121 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+
+*{
+		
+}
+
+	
+
+
+
+.main-anchor-pane{
+	
+	-fx-background-color:#005c5c;
+}
+
+
+
+.tittle-anchor-pane{
+
+	-fx-background-color:#009999;
+	
+	-fx-border-color:white;
+	-fx-border-width: 0 0 1 0;
+}
+
+.tittle-user-name-label{
+	
+	-fx-background-color:#6DC4C4;
+	-fx-padding:10.0px;
+	-fx-text-alignment:left;
+	-fx-font-size:18.0px;
+	-fx-text-fill:white;
+	-fx-wrap-text:true;
+	-fx-font-weight:bold;
+	
+
+}
+
+.tittle-minimize-button{
+	-fx-background-color:#009999;
+	
+
+}
+
+.tittle-minimize-button:hover{
+	-fx-background-color:#B6E1E1;
+}
+
+.tittle-minimize-button:pressed{
+	-fx-background-color:#DAF0F0;
+	    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 1, 1);
+}
+
+.tittle-maximize-button{
+	-fx-background-color:#009999;
+	
+
+}
+
+.tittle-maximize-button:hover{
+	-fx-background-color:#B6E1E1;
+}
+
+.tittle-maximize-button:pressed{
+	-fx-background-color:#DAF0F0;
+	    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 1, 1);
+}
+
+
+.tittle-close-button{
+	-fx-background-color:#009999;
+}
+
+.tittle-close-button:hover{
+	-fx-background-color:red;
+}
+
+
+.content-anchor-pane{
+
+}
+
+.content-tile-pane {
+	-fx-padding:10.0px;
+	-fx-background-color:white;
+}
+
+.content-scroll-pane {
+
+}
+
+.icon-border-pane{
+		-fx-border-color: white;
+		-fx-border-width:1px;
+		-fx-background-color: white;
+}
+
+.icon-border-pane:pressed{
+		-fx-background-color: #91D3D3;
+}
+
+.icon-border-pane-double-click{
+	
+	-fx-border-color: black;
+	-fx-text-fill:white;
+			-fx-background-color: #91D3D3;
+}
+
+
+.icon-border-pane:hover  {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+	-fx-border-color: black;
+}
+
+
+.icon-border-pane>.label{
+	-fx-alignment:center;
+}
+
